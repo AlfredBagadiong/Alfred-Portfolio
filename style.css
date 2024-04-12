@@ -1,31 +1,92 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0%;
-    padding: 0%;
-    background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.9365482233502538) 100%);
-#container{
-    width: 600px;
-    border: solid 1px;
-    border-radius: 10px;
-    margin: 20px auto;
-    padding: 20px;
+*{
+    margin: 0;
+    padding: 0;
 }
-img{
-    margin: 0 auto;
-    display: block;
-    border-radius: 50%;
+.main{
+    width: 100%;
+    background: url(bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
 }
-h1{
-    text-align: center;
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
 }
-.p1{
-    text-align: center;
-}
-li{
-    list-style: none;
-    margin-bottom: auto;
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -4%;
+    margin-left: -2%;
 }
 ul{
-    padding: 0%;
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: brown;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 15%;
+}
+.info h1{
+    font-size: 85px;
+    color: rgb(90, 156, 214);
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: rgb(196, 196, 97);
+}
+.info a{
+    text-decoration: none;
+    color: white;
+    background: rgb(90, 156, 214);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background: rgb(196, 196, 97);
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color: rgb(255, 255, 255);
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color: rgb(9, 97, 230);
+}
+.info h3{
+    color: rgb(255, 255, 255);
 }
